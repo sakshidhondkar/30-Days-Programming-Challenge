@@ -1,4 +1,4 @@
- 
+//DAy -2 : Given a sorted array arr[] and a number x, write a function that counts the occurances of x in arr[] 
 import java.util.Scanner;
 
 public class Day_2 {
@@ -24,10 +24,10 @@ public class Day_2 {
 
 		Scanner sc= new Scanner(System.in);
 		int arr[] = new int[] { 7,8,8, 8, 10, 10, 10, 10, 20, 30, 80 };
-		int no=10;
+		int x=10;
  
 		 
-		System.out.println(no+"'s number of occurance is "+ number_Occurance(arr, no));
+		System.out.println(x+"'s number of occurance is "+ number_Occurance(arr, x));
 						
 	}
 
